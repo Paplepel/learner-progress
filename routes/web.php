@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LearnerProgressController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/learner-progress');
 });
 
 Route::get('/learner-progress', [LearnerProgressController::class, 'index']);
