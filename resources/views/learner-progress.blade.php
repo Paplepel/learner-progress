@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="{{ asset('css/learner-progress.css') }}">
 </head>
 <body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" rx="8" fill="#007bff"/>
+                    <path d="M20 10L28 15V25L20 30L12 25V15L20 10Z" stroke="white" stroke-width="2" fill="none"/>
+                    <circle cx="20" cy="20" r="3" fill="white"/>
+                </svg>
+                <span class="logo-text">Adriaan's Assessment</span>
+            </div>
+            <nav class="nav">
+                <a href="/" class="nav-link active">Dashboard</a>
+            </nav>
+        </div>
+    </header>
+
     <div class="container">
         <h1>Learner Progress</h1>
 
@@ -64,5 +80,26 @@
             </div>
         @endif
     </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" rx="8" fill="#007bff"/>
+                    <path d="M20 10L28 15V25L20 30L12 25V15L20 10Z" stroke="white" stroke-width="2" fill="none"/>
+                    <circle cx="20" cy="20" r="3" fill="white"/>
+                </svg>
+                <span>Adriaan's Assessment © 2026</span>
+            </div>
+            <div class="footer-contact">
+                <div class="contact-name">Adriaan van Niekerk</div>
+                <div class="contact-details">
+                    <a href="tel:+27623542471">+27 62 354 2471</a>
+                    <span class="separator">•</span>
+                    <a href="mailto:adriaan.e.van.niekerk@gmail.com">adriaan.e.van.niekerk@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
