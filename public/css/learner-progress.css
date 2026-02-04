@@ -23,12 +23,13 @@ body {
 }
 
 .header-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 95%;
 }
 
 .logo {
@@ -66,10 +67,11 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 30px 20px;
     flex: 1;
+    width: 95%;
 }
 
 h1 {
@@ -196,7 +198,7 @@ button:hover {
 }
 
 .footer-content {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 30px 20px;
     display: flex;
@@ -204,6 +206,7 @@ button:hover {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    width: 95%;
 }
 
 .footer-logo {
